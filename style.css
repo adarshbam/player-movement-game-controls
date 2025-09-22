@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+.box {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  color: white;
+  font-size: 12px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#player {
+  background-color: blue;
+  bottom: 0;
+}
+
+#computer {
+  background-color: red;
+}
